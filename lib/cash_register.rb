@@ -15,7 +15,7 @@ end
 
 
 def apply_discount
-self.total /= discount
+self.total /  2
   
 end
 
