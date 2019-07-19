@@ -15,7 +15,7 @@ end
 
 
 def apply_discount
-  @total == @discount 
+  @total += @discount 
   
 end
 
