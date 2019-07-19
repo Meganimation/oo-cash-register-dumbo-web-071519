@@ -15,7 +15,7 @@ def add_item(title, price, quantity = 1)
   quantity.times do
     items << title
   end
-  self.last_transaction
+  self.last_transaction = 
 end
 
 
