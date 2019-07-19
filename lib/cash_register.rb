@@ -15,7 +15,7 @@ end
 
 
 def apply_discount(title, discount)
-  self.total / discount
+  self.total = self / discount
   
 end
 
